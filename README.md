@@ -9,7 +9,7 @@ Qt 5
 ## Compiling & running
 
 ```sh
-$ qmake test.pro
+$ qmake mice.pro
 
 $ make
 
