@@ -13,7 +13,7 @@ int main(int argc, char **argv)
     scene.setSceneRect(-300, -300, 600, 600);
     scene.setItemIndexMethod(QGraphicsScene::NoIndex);
 
-    // first distcn
+    // first dist
     int x = 10, y = 10, w = 200, h = 200;
     scene.addEllipse( x, y, w, h, QPen(Qt::red), QBrush(Qt::transparent) );
 

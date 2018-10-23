@@ -78,6 +78,7 @@ void Mouse::advance(int step)
 {
     if (!step)
         return;
+
     // Don't move too far away
     QLineF lineToCenter(QPointF(0, 0), mapFromScene(0, 0));
     if (lineToCenter.length() > 150) {

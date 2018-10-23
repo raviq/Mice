@@ -22,6 +22,5 @@ private:
     qreal mouseEyeDirection;
     QColor color;
 };
-//! [0]
 
 #endif
