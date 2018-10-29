@@ -1,4 +1,4 @@
-Mice [![Licence][licence-img]][licence-url][<img alt="Build Status" src="https://travis-ci.org/raviq/Mice.svg?branch=master">][travis-url]
+Mice [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[<img alt="Build Status" src="https://travis-ci.org/raviq/Mice.svg?branch=master">][travis-url]
 =
 Simple Random walking mice with collision detection.
 
@@ -21,9 +21,6 @@ $ ./mice
 License
 -------
 MIT License (Expat). See [LICENCE.md](LICENCE.md) for details.
-
-[licence-url]: https://github.com/rsp/travis-hello-modern-cpp/blob/master/LICENSE.md
-[licence-img]: https://img.shields.io/github/license/rsp/travis-hello-modern-cpp.svg
 
 [travis-url]: https://travis-ci.org/raviq/Mice
 
