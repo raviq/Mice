@@ -2,9 +2,7 @@ language: cpp
 
 os: osx
 
-compiler:
-  - clang
-  - gcc
+compiler: clang++
 
 script:
   - qmake mice.pro
