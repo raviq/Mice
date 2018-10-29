@@ -1,4 +1,4 @@
-# Mice
+# Mice [![License][license-img]][license-url]
 
 Random walking mice with collision detection.
 
