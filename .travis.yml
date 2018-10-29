@@ -5,5 +5,5 @@ os: osx
 compiler: clang++
 
 script:
-  - qmake mice.pro
+  - /usr/local/Cellar/qt/5.11.2/bin/qmake mice.pro
   - make
