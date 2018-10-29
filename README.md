@@ -1,6 +1,9 @@
-Mice [![Licence][licence-img]][licence-url]
+Mice [![Licence][licence-img]][licence-url] [<img alt="Build Status" src="https://travis-ci.org/rsp/travis-hello-modern-cpp.svg?branch=master" height="40">][travis-url]
 =
 Simple Random walking mice with collision detection.
+
+
+
 
 ## Prerequisites:
 
