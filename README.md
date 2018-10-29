@@ -1,4 +1,4 @@
-Mice [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[<img alt="Build Status" src="https://travis-ci.org/raviq/Mice.svg?branch=master">][travis-url]
+Mice [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[<img alt="Build Status" src="https://travis-ci.org/raviq/Mice.svg?branch=master">] [travis-url]
 =
 Simple Random walking mice with collision detection.
 
