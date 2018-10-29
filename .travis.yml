@@ -4,6 +4,9 @@ os: osx
 
 compiler: clang++
 
+before_script:
+    - PATH="/usr/local/Cellar/qt/5.11.2/
+
 script:
-  - /usr/local/Cellar/qt/5.11.2/bin/qmake mice.pro
+  - qmake mice.pro
   - make
