@@ -1,8 +1,6 @@
-Mice [![Licence][licence-img]][licence-url][<img alt="Build Status" src="https://travis-ci.org/raviq/Mice.svg?branch=master" height="30">][travis-url]
+Mice [![Licence][licence-img]][licence-url][<img alt="Build Status" src="https://travis-ci.org/raviq/Mice.svg?branch=master">][travis-url]
 =
 Simple Random walking mice with collision detection.
-
-
 
 
 ## Prerequisites:
