@@ -1,4 +1,4 @@
-Mice [![License][license-img]][license-url] [![GitHub Stars][stars-img]][stars-url] [![GitHub Forks][forks-img]][forks-url] [![GitHub Watchers][watchers-img]][watchers-url] [![Tweet][tweet-img]][tweet-url]
+Mice [![Licence][licence-img]][licence-url]
 =
 Simple Random walking mice with collision detection.
 
@@ -15,5 +15,13 @@ $ make
 
 $ ./mice
 ```
+
+
+License
+-------
+MIT License (Expat). See [LICENCE.md](LICENCE.md) for details.
+
+[licence-url]: https://github.com/rsp/travis-hello-modern-cpp/blob/master/LICENSE.md
+[licence-img]: https://img.shields.io/github/license/rsp/travis-hello-modern-cpp.svg
 
 
