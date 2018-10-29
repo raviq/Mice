@@ -35,7 +35,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = mice1.0.0
-DISTDIR = /Users/rhad0003/Desktop/2github/Mice/.tmp/mice1.0.0
+DISTDIR = /Users/rhad0003/Desktop/2github/Mice/Mice/.tmp/mice1.0.0
 LINK          = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
 LFLAGS        = -stdlib=libc++ -headerpad_max_install_names $(EXPORT_ARCH_ARGS) -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.11 -Wl,-rpath,@executable_path/Frameworks
 LIBS          = $(SUBLIBS) -F/usr/local/Cellar/qt/5.11.2/lib -framework QtWidgets -framework QtGui -framework QtCore -framework DiskArbitration -framework IOKit -framework OpenGL -framework AGL 
@@ -215,6 +215,7 @@ DIST          = /usr/local/Cellar/qt/5.11.2/mkspecs/features/spec_pre.prf \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/qt_config.prf \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/macx-clang/qmake.conf \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/exclusive_builds.prf \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/mac/sdk.prf \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/toolchain.prf \
@@ -423,6 +424,7 @@ Makefile: mice.pro /usr/local/Cellar/qt/5.11.2/mkspecs/macx-clang/qmake.conf /us
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/qt_config.prf \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/macx-clang/qmake.conf \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/exclusive_builds.prf \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/mac/sdk.prf \
 		/usr/local/Cellar/qt/5.11.2/mkspecs/features/toolchain.prf \
@@ -615,6 +617,7 @@ Makefile: mice.pro /usr/local/Cellar/qt/5.11.2/mkspecs/macx-clang/qmake.conf /us
 /usr/local/Cellar/qt/5.11.2/mkspecs/features/qt_config.prf:
 /usr/local/Cellar/qt/5.11.2/mkspecs/macx-clang/qmake.conf:
 /usr/local/Cellar/qt/5.11.2/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /usr/local/Cellar/qt/5.11.2/mkspecs/features/exclusive_builds.prf:
 /usr/local/Cellar/qt/5.11.2/mkspecs/features/mac/sdk.prf:
 /usr/local/Cellar/qt/5.11.2/mkspecs/features/toolchain.prf:
@@ -671,6 +674,7 @@ clean: compiler_clean
 
 distclean: clean 
 	-$(DEL_FILE) $(TARGET) 
+	-$(DEL_FILE) .qmake.stash
 	-$(DEL_FILE) Makefile
 
 
